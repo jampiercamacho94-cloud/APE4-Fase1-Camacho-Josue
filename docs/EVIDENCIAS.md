@@ -5,13 +5,7 @@
 
 ## Compilación y ejecución
 
-Desde la raíz del repositorio, en PowerShell:
-
-```powershell
-New-Item -ItemType Directory -Force out | Out-Null
-javac -encoding UTF-8 -d out src/Usuario.java src/Amistad.java src/GrafoSocial.java src/Main.java
-if ($LASTEXITCODE -eq 0) { java -cp out Main }
-```
+La Figura 1 muestra la compilación y el inicio del menú desde la raíz del repositorio en PowerShell. Las Figuras 2 a 5 muestran las opciones 1 a 4 ejecutadas mediante el botón Run de VS Code.
 
 ## Figura 1. Menú principal
 
