@@ -1,8 +1,3 @@
-/**
- * Un usuario de la red social (un vértice del grafo).
- * Guarda su ID (por ejemplo "U1") y su nombre (por ejemplo "Irene").
- * Es inmutable: una vez creado no cambia.
- */
 public class Usuario {
 
     private final String id;
